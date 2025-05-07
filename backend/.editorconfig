@@ -1,0 +1,34 @@
+# http://editorconfig.org
+
+# Uma propriedade especial que deve ser especificada no topo do arquivo.
+# Quando definida como true, ela impede o Editorconfig de pesquisar qualquer valor superior
+# na árvore de diretórios para os arquivos .editorconfig.
+root = true
+
+[*]
+# Estilo de indentação
+# Valores possíveis - tab, space
+indent_style = space
+
+# Tamanho da indentação em caracteres de espaçamento simples
+# Valores possíveis - um número inteiro, tab
+indent_size = 2
+
+# Caracteres de nova linha para usar (varia de acordo com o sistema operacional)
+# Valores possíveis - if, crlf, cr
+end_of_line = lf
+
+# Codificação dos caracteres dos arquivos
+# Valores possíveis - latin1, utf-8, utf-16be, utf-16le
+charset = utf-8
+
+# Denota se deve remover o espaço em branco no final das linhas
+# Valores possíveis - true, false
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Denota se o arquivo deve terminar com uma nova linha
+# Valores possíveis - true, false
+insert_final_newline = true
