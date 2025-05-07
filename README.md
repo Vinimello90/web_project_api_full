@@ -2,6 +2,8 @@
 
 O projeto **Web Project API Full - Around the U.S. - EUA Afora** é uma plataforma interativa que desenvolvi com **frontend em React.js**, consumindo uma **API RESTful** criada com **Node.js** e **MongoDB**. Implementei tanto o **frontend** quanto o **backend** em uma máquina virtual na nuvem, configurando todos os serviços necessários para garantir o funcionamento completo da aplicação em ambiente de produção.
 
+https://github.com/user-attachments/assets/0dfef3fe-5e12-4a23-b0fa-250becdf39ef
+
 ## Tecnologias e Metodologias
 
 ### Frontend
@@ -35,8 +37,6 @@ O projeto **Web Project API Full - Around the U.S. - EUA Afora** é uma platafor
 ### Frontend
 
 Desenvolvi uma plataforma onde o usuário pode criar uma conta, personalizar o perfil, publicar e remover fotos, além de curtir fotos compartilhadas por outros usuários. Usei **React.js** e **HTML5 semântico** para otimizar o **SEO**, e adotei a **Metodologia BEM** para tornar o código mais organizado e reutilizável. O frontend consome uma API para persistência e recuperação de dados. Para mais detalhes técnicos e metodológicos sobre o frontend, acesse o **[README do repositório](https://github.com/Vinimello90/web_project_around_auth/tree/main#readme)**.
-
-https://github.com/user-attachments/assets/b7343c75-557b-4cad-8e46-ef3230021b62
 
 ### Backend
 
