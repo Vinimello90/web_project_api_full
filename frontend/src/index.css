@@ -1,0 +1,17 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts.css");
+@import url("./blocks/loading.css");
+@import url("./blocks/page.css");
+@import url("./blocks/header.css");
+@import url("./blocks/main.css");
+@import url("./blocks/login.css");
+@import url("./blocks/register.css");
+@import url("./blocks/profile.css");
+@import url("./blocks/gallery.css");
+@import url("./blocks/card.css");
+@import url("./blocks/no-cards.css");
+@import url("./blocks/button.css");
+@import url("./blocks/input.css");
+@import url("./blocks/info-tooltip.css");
+@import url("./blocks/popup.css");
+@import url("./blocks/footer.css");

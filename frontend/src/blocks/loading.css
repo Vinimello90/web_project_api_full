@@ -1,0 +1,41 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.loading__logo-icon {
+  width: 80px;
+}
+
+.loading__logo-around {
+  width: 280px;
+}
+
+.loading__text {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  line-height: 1.21;
+}
+
+@media screen and (max-width: 600px) {
+  .loading {
+    padding: 0 10px;
+  }
+
+  .loading__logo-icon {
+    max-width: 60px;
+  }
+
+  .loading__logo-around {
+    max-width: 200px;
+  }
+
+  .loading__text {
+    font-size: 14px;
+  }
+}

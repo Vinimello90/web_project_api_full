@@ -1,0 +1,22 @@
+.info-tooltip {
+  display: grid;
+  place-items: center;
+  padding: 36px 0 34px;
+}
+
+.info-tooltip__message {
+  color: #000;
+  text-align: center;
+  margin: 32px 0 0;
+}
+
+@media screen and (max-width: 590px) {
+  .info-tooltip {
+    padding: 25px 0 16px;
+  }
+
+  .info-tooltip__message {
+    font-size: 20px;
+    margin: 25px 0 0;
+  }
+}

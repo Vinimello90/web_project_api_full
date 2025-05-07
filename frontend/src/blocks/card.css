@@ -1,0 +1,37 @@
+.card {
+  position: relative;
+  width: 282px;
+  border-radius: 10px;
+}
+
+.card__image {
+  width: 100%;
+  height: 282px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__image:hover {
+  cursor: pointer;
+}
+
+.card__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 25px 15px 31px 21px;
+  border-radius: 0 0 10px 10px;
+  height: 79px;
+  box-sizing: border-box;
+}
+
+.card__title {
+  width: 224px;
+  font-size: 24px;
+  color: #000;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

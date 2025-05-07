@@ -1,0 +1,253 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  padding: 0;
+  transition: opacity linear 0.3s;
+  cursor: pointer;
+  line-height: 1.21;
+}
+
+.button_auth {
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+}
+
+.button_avatar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0%;
+  padding: 0;
+}
+
+.button_edit {
+  background: url("../images/edit_icon.svg") center no-repeat;
+  background-size: 10px;
+  border: 1px solid #fff;
+  height: 24px;
+  width: 24px;
+}
+
+.button_close {
+  background: url("../images/close_icon.svg") center no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.button_auth-submit {
+  background-color: #fff;
+  color: #000;
+  max-width: 358px;
+  height: 50px;
+}
+
+.button_auth-submit:disabled {
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.button_popup-submit {
+  background-color: #000;
+  color: #fff;
+  border-radius: 2px;
+  width: 100%;
+  height: 50px;
+  margin: 48px 0 0 auto;
+}
+
+.button_popup-submit:disabled {
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid #00000033;
+  color: #00000033;
+}
+
+.button_popup-submit_disabled:disabled {
+  cursor: default;
+  background-color: #000;
+  color: #fff;
+}
+
+.button_popup_confirmation {
+  margin-top: 0;
+}
+
+.button_add {
+  background: url("../images/add_icon.svg") center no-repeat;
+  background-size: 22px;
+  border: 1px solid #fff;
+  width: 150px;
+  height: 50px;
+  margin: 0 0 0 auto;
+}
+
+.button_remove {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  background: url("../images/remove_icon.svg") center no-repeat;
+  background-size: 19.3px 18px;
+  height: 19.3px;
+  width: 18px;
+}
+
+.button_like {
+  background: url("../images/like_icon.svg") center no-repeat;
+  background-size: 21px 19px;
+  height: 19px;
+  width: 21px;
+  transition: background ease-in-out 0.2s;
+}
+
+.button_like_activate {
+  background: url("../images/like_icon_active.svg") center no-repeat;
+}
+
+.button_goto {
+  padding: 0;
+  font-size: 14px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 590px) {
+  .button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .button_burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 21px;
+    width: 24px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  .button__burger-line {
+    height: 3px;
+    background-color: #fff;
+    transition: transform linear 0.2s;
+    border-radius: 50px;
+  }
+
+  .button_burger-menu_opened .button__burger-line:first-of-type {
+    transform: rotate(45deg) translateY(6.8px) translateX(6px);
+  }
+
+  .button_burger-menu_opened .button__burger-line:nth-of-type(2) {
+    display: none;
+  }
+
+  .button_burger-menu_opened .button__burger-line:last-of-type {
+    transform: rotate(-45deg) translateY(-6.8px) translateX(6px);
+  }
+
+  .button_auth {
+    font-size: 14px;
+  }
+
+  .button_auth_logged-in {
+    font-size: 18px;
+  }
+
+  .button_edit {
+    background-size: 7.5px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .button_close {
+    background-size: 26px;
+    height: 26px;
+    width: 26px;
+    right: 5px;
+    top: -45px;
+  }
+
+  .button_close-card-image {
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+    top: -30.21px;
+    right: -30.21px;
+  }
+
+  .button_add {
+    background-size: 16px;
+    margin: 36px auto 0;
+    width: 88.125vw;
+    max-width: 282px;
+  }
+
+  .button_auth-submit {
+    height: 46px;
+  }
+
+  .button_popup-submit {
+    height: 46px;
+    font-size: 14px;
+    margin-top: 46px;
+  }
+
+  .button_popup_confirmation {
+    margin-top: 0;
+  }
+
+  .button_goto {
+    font-size: 12px;
+  }
+}
+
+@media (hover: hover) {
+  .button:hover {
+    opacity: 60%;
+  }
+
+  .button_avatar:hover {
+    background-image: url("../images/edit_avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px;
+    cursor: pointer;
+  }
+
+  .button_auth-submit:disabled:hover {
+    opacity: 100%;
+  }
+
+  .button_popup-submit:disabled:hover {
+    opacity: 100%;
+  }
+}
+
+@media (pointer: coarse) {
+  .button:hover {
+    opacity: 100%;
+  }
+
+  .button_avatar:hover {
+    background-image: url("../images/edit_avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px;
+    cursor: pointer;
+    opacity: 60%;
+  }
+}
