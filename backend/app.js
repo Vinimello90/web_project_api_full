@@ -29,6 +29,12 @@ app.use(requestLogger);
 app.use(cors());
 app.options('*', cors());
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('O servidor travará agora');
+  }, 0);
+});
+
 app.use(
   '/signin',
   celebrate({
