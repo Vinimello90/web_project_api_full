@@ -41,14 +41,14 @@ https://github.com/user-attachments/assets/0dfef3fe-5e12-4a23-b0fa-250becdf39ef
 
 Desenvolvi uma plataforma onde o usuário pode criar uma conta, personalizar o perfil, publicar e remover fotos, além de curtir fotos compartilhadas por outros usuários. Usei **React.js** e **HTML5 semântico** para otimizar o **SEO**, e adotei a **Metodologia BEM** para tornar o código mais organizado e reutilizável. O frontend consome uma API para persistência e recuperação de dados.
 
-Para mais detalhes técnicos e metodológicos sobre o frontend, acesse o **[README do repositório](https://github.com/Vinimello90/web_project_around_auth/tree/main#readme)**.
+Para mais detalhes técnicos e metodológicos sobre o frontend, acesse o **[README do repositório](https://github.com/Vinimello90/web_project_around_auth/tree/main#readme)**
 
 ### Backend
 
 Desenvolvi uma **API RESTful** usando **Node.js** com **Express.js** para gerenciar as requisições. Conectei a API ao **MongoDB** utilizando o **Mongoose**. Para proteger as senhas dos usuários, usei o **bcryptjs** para encriptá-las em hash, e gerei tokens de autenticação com o **jsonwebtoken**.
 Implementei a validação dos dados das requisições com **Joi** e **Celebrate**, e configurei o **Cors** para controlar o acesso às rotas. Para gerar logs e monitorar a aplicação, utilizei a biblioteca **Winston**. Mantive a API sempre ativa com o **PM2**, e configurei o **Nginx** como proxy reverso, redirecionando os acessos conforme os subdomínios.
 
-Para mais detalhes sobre a arquitetura do backend, consulte o **[README do repositório](https://github.com/Vinimello90/web_project_around_express#readme)**.
+Para mais detalhes sobre a arquitetura do backend, consulte o **[README do repositório](https://github.com/Vinimello90/web_project_around_express#readme)**
 
 ---
 
