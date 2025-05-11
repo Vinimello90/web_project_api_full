@@ -1,6 +1,6 @@
 # Web Project API Full - Around the U.S. - EUA Afora
 
-O projeto **Web Project API Full - Around the U.S. - EUA Afora** é uma plataforma interativa que desenvolvi com **frontend em React.js**, consumindo uma **API RESTful** criada com **Node.js** e **MongoDB**. Implementei tanto o **frontend** quanto o **backend** em uma máquina virtual na nuvem, configurando todos os serviços necessários para garantir o funcionamento completo da aplicação em ambiente de produção.
+O projeto **Web Project API Full - Around the U.S. - EUA Afora** é uma plataforma interativa onde o usuário pode criar uma conta, personalizar o perfil, publicar e remover fotos, além de curtir fotos compartilhadas por outros usuários. Desenvolvi o **frontend** com **React.js**, consumindo uma **API RESTful** criada no **backend** com **Node.js** e **MongoDB**. Implementei tanto o **frontend** quanto o **backend** em uma máquina virtual na nuvem, configurando todos os serviços necessários para garantir o funcionamento completo da aplicação em ambiente de produção.
 
 https://github.com/user-attachments/assets/18e15184-e1fb-4e35-903e-faf8f4577310
 
